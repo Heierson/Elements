@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>HelloElements</title>
+</head>
+<body>
+
+<h1>Elements</h1>
+<table style="text-align:center">
+    <tr>
+        <th>Element number:         </th>
+        <th>Element English name:   </th>
+        <th>Element Swedish name:   </th>
+    </tr>
+    <tr th:each="element : ${elements}">
+        <th th:text="${element.id} + ' ' + ${ element.enName} + ' ' + ${ element.svName}">
+    </tr>
+</table>
+</body>
+</html>

@@ -1,1 +1,2 @@
-INSERT INTO ELEMENT (id, enName, svName) VALUES(1, 'Hydrogen', 'Väte')
+INSERT INTO ELEMENT (enName, svName) VALUES('Hydrogen', 'Väte')
+INSERT INTO ELEMENT (enName, svName) VALUES('Helium', 'Helium')
