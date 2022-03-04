@@ -1,0 +1,1 @@
+INSERT INTO ELEMENT (id, enName, svName) VALUES(1, 'Hydrogen', 'Väte')

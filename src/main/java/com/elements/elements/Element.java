@@ -10,14 +10,18 @@ public class Element {
     @Column(name="ID")
     private Long id;
 
-    @Column (name="NAME")
-    private String name;
+    @Column (name="ENNAME")
+    private String enName;
+
+    @Column (name="SVNAME")
+    private String svName;
 
     public Element(){
     }
 
-    public Element() (Long id, String name) {
+    public Element(Long id, String enName, String svName) {
         this.id = id;
-        this.name = name;
+        this.enName = enName;
+        this.svName = svName;
     }
 }
